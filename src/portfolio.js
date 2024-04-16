@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import {ReactComponent as tsLogo} from "../src/assets/images/tsLogo.svg";
 // Splash Screen
 
 const splashScreen = {
@@ -64,7 +64,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "typescript",
-      fontAwesomeClassname: "fab fa-ts"
+      svgComponent: tsLogo
     },
     {
       skillName: "html-5",
@@ -169,10 +169,11 @@ const workExperiences = {
       company: "GoodRx",
       companylogo: require("./assets/images/goodrxLogo.png"),
       date: "December 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Contributing member of a phenomenal and diverse team of engineers developing full-stack applications and tools to better protect the privacy of our users.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Tech: MERN stack, TypeScript, Jest, Python, AirFlow, Go, and Docker",
+        "Engineered critical components of user privacy infrastructure, including the User ID Map Service and User Privacy Control Service, employing Golang and gRPC to manage privacy settings across various business units.",
+        "Led the design and implementation of scalable, containerized microservices using Kubernetes, ensuring operational excellence and compliance for a high-availability compliance audit system"
       ]
     },
     {
@@ -180,7 +181,11 @@ const workExperiences = {
       company: "Deloitte",
       companylogo: require("./assets/images/deloitteLogo.png"),
       date: "July 2017 – December 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Started my career working across the country assisting companies with their implementation of major systems in a secure way.",
+      descBullets: [
+        "Lead the security role and information technology control design for three S/4HANA releases for a Fortune 20 Telecommunication firm, the largest all-virtual implementation completed at Deloitte.",
+        "Managed vendor coordination for solely vendor-supported client infrastructures with data privacy requirements including GDPR and CCPA."
+      ]
     }
   ]
 };
@@ -196,13 +201,14 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "Github links to some of the projects I've worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/heatingOil.jpeg"),
+      projectName: "Heating Oil Price Prediction",
+      projectDesc:
+        "A website for residents of my home state of Connecticut that uses machine learning to predict the price of heating oil and enables my community to save money on heating.",
       footerLink: [
         {
           name: "Visit Website",

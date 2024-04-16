@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.e3ab85b2.css",
-    "main.js": "/static/js/main.b49fd033.js",
+    "main.js": "/static/js/main.b264775f.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.b1f06ba1.chunk.js": "/static/js/990.b1f06ba1.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/heatingOil.jpeg": "/static/media/heatingOil.ab655871db556d2179dc.jpeg",
+    "static/media/heatingOil.jpeg": "/static/media/heatingOil.4b3c696c31b4341b807c.jpeg",
     "static/media/bentleyLogo.png": "/static/media/bentleyLogo.f66595d1caa704997ddb.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -23,7 +23,7 @@
     "static/media/tsLogo.svg": "/static/media/tsLogo.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.e3ab85b2.css.map": "/static/css/main.e3ab85b2.css.map",
-    "main.b49fd033.js.map": "/static/js/main.b49fd033.js.map",
+    "main.b264775f.js.map": "/static/js/main.b264775f.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.e3ab85b2.css",
-    "static/js/main.b49fd033.js"
+    "static/js/main.b264775f.js"
   ]
 }

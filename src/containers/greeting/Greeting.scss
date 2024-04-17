@@ -6,6 +6,7 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -43,6 +44,10 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+}
+
+.greeting-text.dark-mode {
+  color: $textColorDark !important;
 }
 
 .greeting-text-p {

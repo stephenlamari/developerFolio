@@ -5,6 +5,7 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 import {ReactComponent as tsLogo} from "../src/assets/images/tsLogo.svg";
+import {ReactComponent as kubernetesLogo} from "../src/assets/images/kubernetesLogo.svg";
 // Splash Screen
 
 const splashScreen = {
@@ -47,7 +48,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "My tech background",
   subTitle:
-    "Currently working in a Typescript/Go focused team, but I've built some cool things using the following",
+    "Currently working in a Typescript/Go focused team, but I've built some cool things using the following:",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -70,7 +71,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "go",
       fontAwesomeClassname: "fab fa-golang"
     },
-    // <FontAwesomeIcon icon="fa-brands fa-golang" />
+    {
+      skillName: "kubernetes",
+      svgComponent: kubernetesLogo
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -91,10 +95,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -167,9 +167,17 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Cloudflare",
+      companylogo: require("./assets/images/cloudflareLogo.png"),
+      date: "April 2024 – Present ",
+      desc: "Currently working on the Trust & Safety team engineering solutions that contribute to Cloudflare's mission of building a better Internet",
+      descBullets: ["Tech: Go, Kubernetes, Rust", "TBD"]
+    },
+    {
+      role: "Software Engineer",
       company: "GoodRx",
       companylogo: require("./assets/images/goodrxLogo.png"),
-      date: "December 2020 – Present",
+      date: "Current",
       desc: "Contributing member of a phenomenal and diverse team of engineers developing full-stack applications and tools to better protect the privacy of our users.",
       descBullets: [
         "Tech: MERN stack, TypeScript, Jest, Python, AirFlow, Go, and Docker",
@@ -181,7 +189,7 @@ const workExperiences = {
       role: "Senior Cybersecurity Consultant",
       company: "Deloitte",
       companylogo: require("./assets/images/deloitteLogo.png"),
-      date: "July 2017 – December 2020",
+      date: "2017 – 2020",
       desc: "Started my career working across the country assisting companies with their implementation of major systems in a secure way.",
       descBullets: [
         "Lead the security role and information technology control design for three S/4HANA releases for a Fortune 20 Telecommunication firm, the largest all-virtual implementation completed at Deloitte.",
@@ -206,14 +214,14 @@ const bigProjects = {
   subtitle: "Github links to some of the projects I've worked on",
   projects: [
     {
-      image: require("./assets/images/heatingOil.jpeg"),
-      projectName: "Heating Oil Price Prediction",
+      image: require("./assets/images/heatingOilLogo.png"),
+      projectName: "Heat Oil PrediCT",
       projectDesc:
         "A website for residents of my home state of Connecticut that uses machine learning to predict the price of heating oil and enables my community to save money on heating.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "www.heatoilpredict.com"
         }
         //  you can add extra buttons here.
       ]
@@ -225,7 +233,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     }

@@ -18,7 +18,12 @@
 }
 
 .subTitle {
-  color: $subTitle !important;
+  color: $subTitle !important; /* Light mode color */
+}
+
+/* Add dark mode styles */
+.dark-mode .subTitle {
+  color: $textColorDark !important; /* Dark mode color */
 }
 
 .greeting-main {

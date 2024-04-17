@@ -29,3 +29,6 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+.bw-filter {
+  filter: grayscale(100%);
+}

@@ -67,6 +67,11 @@ https://fontawesome.com/icons?d=gallery */
       svgComponent: tsLogo
     },
     {
+      skillName: "go",
+      fontAwesomeClassname: "fab fa-golang"
+    },
+    // <FontAwesomeIcon icon="fa-brands fa-golang" />
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -74,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"

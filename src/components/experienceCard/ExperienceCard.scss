@@ -79,7 +79,8 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: contain; /* Change from 'cover' to 'contain' to ensure the entire image fits within the bounds */
+  background-color: #ffffff;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
